@@ -13,6 +13,14 @@ DEFAULT_APPS = [
 ]
 
 THIRD_PARTY_APPS = [
+    "unfold", 
+    "unfold.contrib.filters", 
+    "unfold.contrib.forms",  
+    "unfold.contrib.inlines",  
+    "unfold.contrib.import_export",  
+    "unfold.contrib.guardian",  
+    "unfold.contrib.simple_history", 
+    "django.contrib.admin",  
     "rest_framework",
     "rest_framework_simplejwt.token_blacklist",
 ]
