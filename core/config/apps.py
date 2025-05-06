@@ -23,4 +23,5 @@ THIRD_PARTY_APPS = [
     "django.contrib.admin",  
     "rest_framework",
     "rest_framework_simplejwt.token_blacklist",
+    "drf_spectacular"
 ]

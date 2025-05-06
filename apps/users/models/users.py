@@ -1,6 +1,7 @@
 from apps.shared.models import AbstractBaseModel
 from apps.shared.utils import generate_base64
 from django.db import models
+from django.utils.translation import gettext_lazy as _
 
 
 class CustomUser(AbstractBaseModel):
@@ -16,6 +17,6 @@ class CustomUser(AbstractBaseModel):
     class Meta:
 
         db_table = 'users'
-        verbose_name = 'User'
-        verbose_name_plural = 'Users'
+        verbose_name = _('User')
+        verbose_name_plural = _('Users')
         ordering  = ['-created_time']
